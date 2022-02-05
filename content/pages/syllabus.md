@@ -41,14 +41,75 @@ The final exam will cover all material but will emphasize Ses #L25-L39. It will 
 Grading
 -------
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Homework | 15% |
-| Device characterization projects | 10% |
-| Design project | 10% |
-| Quiz 1 | 20% |
-| Quiz 2 | 20% |
-| Final exam | 25% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+15%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Device characterization projects
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Design project
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Collaboration Policy
 --------------------
@@ -67,56 +128,699 @@ Jesús del Alamo and Harry Tuller, course materials for 6.720J Integrated Microe
 
 The calendar below provides information on the course's lecture (L) and recitation (R) sessions.
 
-| SES # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| L1 | 6.720 overview; fundamental concepts | Project 1 out |
-| L2 | Intrinsic, extrinsic semiconductors; conduction and valence band density of states (DOS) | &nbsp; |
-| L3 | Carrier statistics in semiconductors; Fermi level | &nbsp; |
-| L4 | Generation and recombination mechanisms; equilibrium rates | &nbsp; |
-| L5 | Generation and recombination rates outside equilibrium |  {{< br >}}{{< br >}} Project 1 due {{< br >}}{{< br >}} Homework 1 out {{< br >}}{{< br >}}  |
-| R1 | Problems on carrier statistics in equilibrium, generation and recombination | &nbsp; |
-| L6 | Carrier dynamics; thermal motion | &nbsp; |
-| L7 | Drift; diffusion; transit time | &nbsp; |
-| L8 | Non-uniform doping distribution |  {{< br >}}{{< br >}} Homework 1 due {{< br >}}{{< br >}} Homework 2 out {{< br >}}{{< br >}}  |
-| R2 | Problems on carrier dynamics, drift and diffusion | &nbsp; |
-| L9 | Quasi-Fermi levels; continuity equations | &nbsp; |
-| R3 | Problems on non-uniform doping distribution, quasi-Fermi levels | &nbsp; |
-| L10 | Shockley equations; majority-carrier type situations |  {{< br >}}{{< br >}} Homework 2 due {{< br >}}{{< br >}} Homework 3 out {{< br >}}{{< br >}}  |
-| L11 | Minority-carrier type situations: statics | &nbsp; |
-| L12 | Minority-carrier dynamics; space-charge and high-resistivity (SCR) transport; carrier multiplication | &nbsp; |
-| R4 | Problems on majority carrier situations, minority carrier situations: statics and dynamics | &nbsp; |
-| L13 | PN junction: electrostatics in and out of equilibrium | Homework 3 due |
-| L14 | PN junction: depletion capacitance; current-voltage (I-V) characteristics | &nbsp; |
-| L15 | PN junction: carrier storage; diffusion capacitance; PN diode: parasitics | &nbsp; |
-| L16 | PN junction dynamics; PN diode: non-ideal and second-order effects | Quiz 1 taken 1 day after Ses #L16 |
-| L17 | Metal-semiconductor junction electrostatics in and out of equilibrium; capacitance-voltage (C-V) characteristics |  {{< br >}}{{< br >}} Project 2 out {{< br >}}{{< br >}} Homework 4 out {{< br >}}{{< br >}}  |
-| R5 | Problems on metal-semiconductor junction, Schottky diode | &nbsp; |
-| L18 | Metal semiconductor junction I-V characteristics | &nbsp; |
-| L19 | Schottky diode; equivalent-circuit model; ohmic contacts | &nbsp; |
-| L20 | Ideal semiconductor surface |  {{< br >}}{{< br >}} Homework 4 due {{< br >}}{{< br >}} Homework 5 out {{< br >}}{{< br >}}  |
-| R6 | Problems on PN junction, PN diode | &nbsp; |
-| L21 | Metal-oxide-semiconductor (MOS) in equilibrium | &nbsp; |
-| L22 | MOS outside equilibrium; Poisson-Boltzmann formulation | &nbsp; |
-| L23 | Simplifications to Poisson-Boltzmann formulation |  {{< br >}}{{< br >}} Homework 5 due {{< br >}}{{< br >}} Project 2 due {{< br >}}{{< br >}}  |
-| R7 | Problems on MOS structure | &nbsp; |
-| L24 | Dynamics of MOS structure: C-V characteristics; three-terminal MOS | &nbsp; |
-| L25 | Inversion layer transport | Quiz 2 taken 1 day after Ses #L25 |
-| L26 | Long-channel metal-oxide-semiconductor field-effect (MOSFET): I-V characteristics |  {{< br >}}{{< br >}} Project 3 out {{< br >}}{{< br >}} Homework 6 out {{< br >}}{{< br >}}  |
-| L27 | I-V characteristics (cont.): body effect, back bias | &nbsp; |
-| L28 | I-V characteristics (cont.): channel-length modulation, subthreshold regime |  {{< br >}}{{< br >}} Homework 6 due {{< br >}}{{< br >}} Homework 7 out {{< br >}}{{< br >}}  |
-| R8 | Problems on long MOSFET | &nbsp; |
-| L29 | C-V characteristics; small-signal equivalent circuit models | &nbsp; |
-| L30 | Short-channel MOSFET: short-channel effects | &nbsp; |
-| L31 | MOSFET short-channel effects (cont.) |  {{< br >}}{{< br >}} Homework 7 due {{< br >}}{{< br >}} Homework 8 out {{< br >}}{{< br >}}  |
-| R9 | Problems on short MOSFET | &nbsp; |
-| L32 | MOSFET scaling |  {{< br >}}{{< br >}} Project 4 out {{< br >}}{{< br >}} Project 3 due {{< br >}}{{< br >}}  |
-| L33 | Evolution of MOSFET design | &nbsp; |
-| L34 | Bipolar junction transistor (BJT) intro; basic operation |  {{< br >}}{{< br >}} Homework 8 due {{< br >}}{{< br >}} Homework 9 out {{< br >}}{{< br >}}  |
-| R10 | Problems on short MOSFET | &nbsp; |
-| L35 | BJT I-V characteristics in forward-active | &nbsp; |
-| L36 | Other regimes of operation of BJT | &nbsp; |
-| L37 | BJT C-V characteristics; small-signal equivalent circuit models | Homework 9 due |
-| L38 | BJT high-frequency characteristics | Project 4 due |
-| R11 | Harry's guest lecture | &nbsp; |
-| R12 | Problems on BJT | &nbsp; |
-| L39 | BJT non-ideal effects; evolution of BJT design; bipolar issues in complementary metal-oxide-semiconductor (CMOS) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+6.720 overview; fundamental concepts
+{{< tdclose >}}
+{{< tdopen >}}
+Project 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Intrinsic, extrinsic semiconductors; conduction and valence band density of states (DOS)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Carrier statistics in semiconductors; Fermi level
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Generation and recombination mechanisms; equilibrium rates
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Generation and recombination rates outside equilibrium
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Project 1 due
+
+Homework 1 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on carrier statistics in equilibrium, generation and recombination
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Carrier dynamics; thermal motion
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Drift; diffusion; transit time
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+Non-uniform doping distribution
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 1 due
+
+Homework 2 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on carrier dynamics, drift and diffusion
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Quasi-Fermi levels; continuity equations
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on non-uniform doping distribution, quasi-Fermi levels
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Shockley equations; majority-carrier type situations
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 2 due
+
+Homework 3 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Minority-carrier type situations: statics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Minority-carrier dynamics; space-charge and high-resistivity (SCR) transport; carrier multiplication
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on majority carrier situations, minority carrier situations: statics and dynamics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+PN junction: electrostatics in and out of equilibrium
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+PN junction: depletion capacitance; current-voltage (I-V) characteristics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+PN junction: carrier storage; diffusion capacitance; PN diode: parasitics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+PN junction dynamics; PN diode: non-ideal and second-order effects
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 taken 1 day after Ses #L16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Metal-semiconductor junction electrostatics in and out of equilibrium; capacitance-voltage (C-V) characteristics
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Project 2 out
+
+Homework 4 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on metal-semiconductor junction, Schottky diode
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Metal semiconductor junction I-V characteristics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Schottky diode; equivalent-circuit model; ohmic contacts
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Ideal semiconductor surface
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 4 due
+
+Homework 5 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on PN junction, PN diode
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Metal-oxide-semiconductor (MOS) in equilibrium
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+MOS outside equilibrium; Poisson-Boltzmann formulation
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+Simplifications to Poisson-Boltzmann formulation
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 5 due
+
+Project 2 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on MOS structure
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Dynamics of MOS structure: C-V characteristics; three-terminal MOS
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Inversion layer transport
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 taken 1 day after Ses #L25
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L26
+{{< tdclose >}}
+{{< tdopen >}}
+Long-channel metal-oxide-semiconductor field-effect (MOSFET): I-V characteristics
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Project 3 out
+
+Homework 6 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L27
+{{< tdclose >}}
+{{< tdopen >}}
+I-V characteristics (cont.): body effect, back bias
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L28
+{{< tdclose >}}
+{{< tdopen >}}
+I-V characteristics (cont.): channel-length modulation, subthreshold regime
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 6 due
+
+Homework 7 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on long MOSFET
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L29
+{{< tdclose >}}
+{{< tdopen >}}
+C-V characteristics; small-signal equivalent circuit models
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L30
+{{< tdclose >}}
+{{< tdopen >}}
+Short-channel MOSFET: short-channel effects
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L31
+{{< tdclose >}}
+{{< tdopen >}}
+MOSFET short-channel effects (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 7 due
+
+Homework 8 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on short MOSFET
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L32
+{{< tdclose >}}
+{{< tdopen >}}
+MOSFET scaling
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Project 4 out
+
+Project 3 due
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L33
+{{< tdclose >}}
+{{< tdopen >}}
+Evolution of MOSFET design
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L34
+{{< tdclose >}}
+{{< tdopen >}}
+Bipolar junction transistor (BJT) intro; basic operation
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Homework 8 due
+
+Homework 9 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on short MOSFET
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L35
+{{< tdclose >}}
+{{< tdopen >}}
+BJT I-V characteristics in forward-active
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L36
+{{< tdclose >}}
+{{< tdopen >}}
+Other regimes of operation of BJT
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L37
+{{< tdclose >}}
+{{< tdopen >}}
+BJT C-V characteristics; small-signal equivalent circuit models
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 9 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L38
+{{< tdclose >}}
+{{< tdopen >}}
+BJT high-frequency characteristics
+{{< tdclose >}}
+{{< tdopen >}}
+Project 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+Harry's guest lecture
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R12
+{{< tdclose >}}
+{{< tdopen >}}
+Problems on BJT
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L39
+{{< tdclose >}}
+{{< tdopen >}}
+BJT non-ideal effects; evolution of BJT design; bipolar issues in complementary metal-oxide-semiconductor (CMOS)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
