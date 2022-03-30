@@ -5,6 +5,7 @@ description: Lecture notes on carrier generation and recombination, G&R mechanis
   thermal equilibrium.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-720j-integrated-microelectronic-devices-spring-2007/6ea95228c96b5cb849eca384b52f4ccf_lecture4.pdf
 file_type: application/pdf
+parent_uid: 24adbc49-3669-754b-9b55-79f56e9b84ce
 resourcetype: Document
 title: lecture4.pdf
 uid: 6ea95228-c96b-5cb8-49ec-a384b52f4ccf
